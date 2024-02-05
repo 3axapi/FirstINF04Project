@@ -3,4 +3,20 @@
     <string name="pole_imie">Tu wpisz swoje imie</string>
     <string name="pole_email">Tu wpisz swój email</string>
     <string name="pole_telefon">Tu wpisz numer telefonu</string>
+    <string name="is_off">WYŁĄCZONY</string>
+    <string name="isOn">WŁĄCZONY</string>
+    <string name="slij_dane">Ślij dane</string>
+    <string name="switch_off">switch OFF</string>
+    <string name="switch_on">switch ON</string>
+    <string name="chkbx_ufo">czy jesteś Ufoludkiem?</string>
+    <string name="chkbx_ear">czy jesteś Ziemianiem?</string>
+    <string name="pz_szynka">pizza z szynką</string>
+    <string name="pz_wege">pizza z wege</string>
+    <string name="pz_ryba">pizza z rybą</string>
+
+    <string-array name="my_spinner">
+        <item>pierwszy wariant</item>
+        <item>kolejna alternatywa</item>
+        <item>ostatni wybór</item>
+    </string-array>
 </resources>

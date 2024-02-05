@@ -37,4 +37,73 @@
         android:hint="@string/pole_telefon"
         android:inputType="phone" />
 
+    <Button
+        android:onClick="slijDane"
+        android:id="@+id/slij_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/slij_dane" />
+
+    <ToggleButton
+        android:onClick="toggleClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="@string/is_off"
+        android:textOn="@string/isOn" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:onClick="switchClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:trackTint="#6040f0"
+        app:thumbTint="#402060"
+        android:textOff="@string/switch_off"
+        android:textOn="@string/switch_on" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <CheckBox
+            android:id="@+id/checkbox_1"
+            android:onClick="checKClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chkbx_ufo" />
+
+        <CheckBox
+            android:id="@+id/checkbox_2"
+            android:onClick="checKClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chkbx_ear" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/group_pizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <RadioButton
+            android:id="@+id/radio_szynka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pz_szynka" />
+        <RadioButton
+            android:id="@+id/radio_wege"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pz_wege" />
+        <RadioButton
+            android:id="@+id/radio_ryba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pz_ryba" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/my_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/my_spinner" />
 </LinearLayout>
