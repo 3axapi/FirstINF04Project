@@ -79,7 +79,7 @@ class MainActivity : AppCompatActivity() {
         else Log.i("switch", "nieswitchnięty")
     }
 
-    fun checKClick(view: View) {
+    fun checkClick(view: View) {
         val isChecked: Boolean = (view as? CheckBox)?.isChecked ?: false // if obj = null → false || else obj = true
 
         when(view.id) {

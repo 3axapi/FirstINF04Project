@@ -66,14 +66,14 @@
         android:orientation="vertical" >
         <CheckBox
             android:id="@+id/checkbox_1"
-            android:onClick="checKClick"
+            android:onClick="checkClick"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/chkbx_ufo" />
 
         <CheckBox
             android:id="@+id/checkbox_2"
-            android:onClick="checKClick"
+            android:onClick="checkClick"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/chkbx_ear" />
